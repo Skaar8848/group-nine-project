@@ -94,4 +94,25 @@ RISC-V CPU 领域近 10 年的全球发文趋势与区域研究特征；
 - 在 query.yaml 中配置检索式
 - 在 query_changelog.md 中记录检索策略优化过程
 
+Lesson 3 工作内容总结
+完成文献检索与数据获取
+使用优化后的检索式在 Web of Science 进行文献检索
+成功导出 RIS 格式原始数据，文件名为 wos_riscv_2015-2026_raw.ris
+完成 GitHub 仓库文件管理
+将原始 RIS 文件上传至仓库 data/raw/ 目录
+创建 data/processed/ 目录用于存放清洗后的数据
+完成数据质量检查与清洗
+使用 Python 脚本对文献数据进行自动化处理
+基于 DOI 和标题完成文献去重
+检查关键字段缺失情况（标题、作者、DOI、年份、期刊、参考文献）
+生成去重后的干净数据集并保存为 CSV 格式
+编写项目文档（3 个必备文件）
+完成 data/README.md：说明数据来源、检索式、目录结构
+完成 data/field_dictionary.md：定义 RIS 各字段含义
+完成 reports/data_quality.md：记录数据统计结果与质量评估
+完成仓库规范化整理
+将所有数据、脚本、文档上传至 GitHub
+保证项目结构清晰、可复现、符合课程要求
+
+此外经过与本组同学的探讨
 通过增加 RV32、RV64、RISC-V ISA 等关键词，检索文献数量显著增加，为后续 Lesson3 和 Lesson4 的文献筛选与分析提供数据基础。

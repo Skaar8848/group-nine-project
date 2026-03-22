@@ -1,0 +1,16 @@
+# 数据说明
+
+## 数据来源
+- 数据库：Web of Science
+- 检索主题：RISC-V 处理器架构相关文献
+- 检索式：
+("RISC-V" OR "RISC V") AND ("processor design" OR "cpu architecture" OR "microarchitecture" OR "instruction set architecture" OR "embedded system" OR "computer architecture" OR "system on chip" OR "SoC")
+- 时间范围：2010–2026
+- 导出格式：RIS
+
+## 文件夹结构
+- raw/：原始数据，未做任何修改
+- processed/：清洗后、去重的数据
+
+## 数据用途
+用于文献计量分析、研究热点挖掘、领域知识图谱构建（Lesson3及后续课程使用）
