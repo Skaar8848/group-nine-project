@@ -393,3 +393,7 @@ outputs/keyword_network.png：关键词共现网络可视化图
 揭示关键词网络呈现中心化结构，研究热点集中于系统层与体系结构方向
 完成关键词影响力分析，为热点识别与趋势分析提供数据支撑
 为后续前沿分析与综述撰写提供重要依据
+
+
+# Lesson 8课后修正
+在老师点评下优化和修改了检索式，解决了目标文献过少的问题，从400篇增加到了3000篇，检索，链接如下：https://webofscience.clarivate.cn/wos/woscc/summary/c5f8dff5-358c-445c-9f06-6d0b6b4a28ae-01af1c7744/relevance/1。优化检索式为"RISC-V" OR "RISC V" OR "open ISA" OR "open instruction set architecture" OR "RISC processor" OR "open-source processor" AND PY=2017-2026。
