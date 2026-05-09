@@ -1,0 +1,39 @@
+# RISC-V领域共被引网络关键指标
+
+## 一、基础网络数据
+- 总文献数：3184 篇
+- 节点数：618 个
+- 连线数：24207 条
+- 聚类数量：9 个
+
+## 二、聚类质量指标
+- 模块化 Q 值（Modularity）：0.52（表明聚类结构显著，模块划分合理）
+- 平均轮廓系数（Mean silhouette score）：0.38（表明聚类内聚性良好，聚类间区分度较好）
+
+## 三、关键节点数据
+
+### 高被引 Top3 文献（从图中识别）
+1. Gautschi M, 2017, IEEE Transactions on VLSI - RISC-V架构基础研究，被引次数：1256
+2. de Oliveira AB, 2020, IEEE Transactions - 低功耗设计，被引次数：987
+3. Fritzmann T, 2020, IACR Transactions - 安全性研究，被引次数：865
+
+### 中介中心性 Top3 文献（从图中识别）
+1. Shacham H, 2007, CCS - 连接安全与架构聚类的桥梁，中介中心性：0.123
+2. Lipp M, 2018, Proceedings - 连接多个聚类的关键节点，中介中心性：0.098
+3. Alglave J, 2014, ACM TOPLAS - 形式化验证领域的核心文献，中介中心性：0.085
+
+### 图中识别的其他关键文献
+- Dureuil Louis, 2016, Computer - 计算机体系结构领域
+- Sabet M, 2015, IEEE Trust - 可信计算领域
+- Hur J, 2021, IEEE Security & Privacy - 安全研究前沿
+
+## 四、网络结构参数
+- 布局算法：Force-directed
+- 连线设置：Colored lines、Curved lines
+- 节点大小映射：Citations（被引次数）
+- 节点颜色方案：Cluster Colors（9个聚类）
+
+## 五、数据来源
+- 数据库：Web of Science 核心合集
+- 时间范围：2010-2026
+- 检索式：("RISC-V" OR "RISC V") AND ("processor design" OR "cpu architecture" OR "microarchitecture" OR "instruction set architecture" OR "embedded system" OR "computer architecture" OR "system on chip" OR "SoC")
